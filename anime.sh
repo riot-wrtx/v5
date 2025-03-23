@@ -147,8 +147,8 @@ echo -e "$green━━━━━━━━━━━━━━━━━━━━━�
 	echo "$dom" > /etc/xray/domain
 	echo "$dom" > /etc/v2ray/domain
 	echo "$dom" > /root/domain
-      #  echo "$nsdomen" > /etc/xray/nsdomain
-      #  echo "$nsdomen" > /root/nsdomain
+        echo "$nsdomen" > /etc/xray/nsdomain
+        echo "$nsdomen" > /root/nsdomain
 fi
 domain=$(cat /root/domain)
 CITY=$(curl -s ipinfo.io/city )
