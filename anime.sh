@@ -140,7 +140,7 @@ echo -e "$green━━━━━━━━━━━━━━━━━━━━━�
     #print "Domain Random Done"
 	elif test $dns -eq 2; then
     read -rp "Enter Your Domain / masukan domain : " dom
-    #read -rp "Input ur ns-domain : " -e nsdomen
+    read -rp "Input ur ns-domain : " -e nsdomen
     echo "IP=$dom" > /var/lib/SIJA/ipvps.conf
     echo "$dom" > /root/scdomain
 	echo "$dom" > /etc/xray/scdomain
@@ -212,6 +212,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green          Install NOOBZVPNS              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
+clear
 wget https://raw.githubusercontent.com/riot-wrtx/v5/main/noobz/noobzvpns.zip
 unzip noobzvpns.zip
 chmod +x noobzvpns/*
