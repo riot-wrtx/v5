@@ -117,8 +117,6 @@ rm tools.sh
 clear
 echo " "
 clear
-echo " "
-clear
 echo -e "$green━━━━━━━━━━┏┓━━━━━━━━━━━━━━━━━━━━━━━━┏┓━━━━━━━━━━━$NC"
 echo -e "$green━━━━━━━━━┏┛┗┓━━━━━━━━━━━━━━━━━━━━━━┏┛┗┓━━━━━━━━━━$NC"
 echo -e "$green┏━━┓━┏┓┏┓┗┓┏┛┏━━┓━━━━┏━━┓┏━━┓┏┓┏━┓━┗┓┏┛┏┓┏━┓━┏━━┓$NC"
@@ -209,13 +207,6 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 wget -q -O slow.sh https://raw.githubusercontent.com/riot-wrtx/v5/main/slow.sh && chmod +x slow.sh && ./slow.sh
-# clear
-# echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-# echo -e "$green          Install TROJAN-GO              $NC"
-# echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-# sleep 2
-# clear
-# wget https://raw.githubusercontent.com/riot-wrtx/v5/main/xray/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install NOOBZVPNS              $NC"
